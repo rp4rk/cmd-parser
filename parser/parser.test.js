@@ -49,11 +49,11 @@ test('integrates with everything as expected', () => {
     .addCommand('!ping')
     .addStructuredMatch({
       argumentLabel: 'username',
-      type: 'string',
+      argumentType: 'string',
     })
     .addStructuredMatch({
       argumentLabel: 'message',
-      type: 'string',
+      argumentType: 'string',
     });
 
   expect(parser.parse('!ping ryan "stop that"')).toEqual({
@@ -62,3 +62,11 @@ test('integrates with everything as expected', () => {
     message: 'stop that',
   });
 });
+
+/**
+  {
+    command: '!ping',
+    username: 'ryan',
+    message: 'stop that',
+  }
+ */
