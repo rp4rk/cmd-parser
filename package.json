@@ -1,0 +1,14 @@
+{
+  "name": "cmd-parser",
+  "version": "0.0.1",
+  "description": "A generic command parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
