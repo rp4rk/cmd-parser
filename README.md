@@ -24,7 +24,7 @@ A structured command parser, allowing for a somewhat rigid interpretation of com
     {
       command: '!ping',
       username: 'ryan',
-      message: 'stop that',
+      message: 'Remember to set your alarm tonight!',
     }
   */
 ```
